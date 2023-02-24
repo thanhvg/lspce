@@ -69,7 +69,7 @@
   :type 'string
   :group 'lspce)
 
-(defcustom lspce-jdtls-install-dir nil
+(defcustom lspce-jdtls-install-dir "~/jdtls"
   "Install directory for eclipse.jdt.ls-server."
   :group 'lspce
   :type 'directory)

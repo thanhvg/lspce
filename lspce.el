@@ -151,6 +151,7 @@ current buffer is set to the buffer being edited."
                                 ("C" "clangd" "")
                                 ("sh" "bash-language-server" "start")
                                 ("go" "gopls" "" lspce-gopls-initializationOptions)
+                                ("java" "java" lspce-jdtls-cmd-args lspce-jdtls-initializationOptions)
                                 ("typescript" "typescript-language-server" "--stdio")
                                 ("js" "typescript-language-server" "--stdio"))
   "How the command `lspce' gets the server to start.
